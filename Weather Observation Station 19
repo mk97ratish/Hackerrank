@@ -11,6 +11,7 @@ Station.jpg
 where LAT_N is the northern latitude and LONG_W is the western longitude.
 
 
+======
 Please append a semicolon ";" at the end of the query and enter your query in a single line to avoid error.
 */
 
@@ -19,4 +20,5 @@ select round(sqrt(
     +
     power(max(LONG_W)-min(LONG_W),2)
     ),4) from station;
+
 
